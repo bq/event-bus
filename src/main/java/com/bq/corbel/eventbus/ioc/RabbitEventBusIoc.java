@@ -1,4 +1,4 @@
-package io.corbel.eventbus.ioc;
+package com.bq.corbel.eventbus.ioc;
 
 import java.util.Optional;
 
@@ -14,9 +14,9 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JSR310Module;
 
-import io.corbel.eventbus.rabbit.EventBusRabbitMQ;
-import io.corbel.lib.rabbitmq.config.AmqpConfiguration;
-import io.corbel.lib.rabbitmq.ioc.AbstractRabbitMQConfiguration;
+import com.bq.corbel.eventbus.rabbit.EventBusRabbitMQ;
+import com.bq.corbel.lib.rabbitmq.config.AmqpConfiguration;
+import com.bq.corbel.lib.rabbitmq.ioc.AbstractRabbitMQConfiguration;
 
 /**
  * @author Alberto J. Rubio

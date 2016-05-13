@@ -1,4 +1,4 @@
-package io.corbel.eventbus.service;
+package com.bq.corbel.eventbus.service;
 
 import java.util.Collections;
 import java.util.LinkedList;
@@ -7,8 +7,8 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import io.corbel.eventbus.Event;
-import io.corbel.eventbus.EventHandler;
+import com.bq.corbel.eventbus.Event;
+import com.bq.corbel.eventbus.EventHandler;
 
 /**
  * @author Francisco Sanchez

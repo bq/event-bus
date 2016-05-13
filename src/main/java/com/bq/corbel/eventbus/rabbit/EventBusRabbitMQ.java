@@ -1,4 +1,4 @@
-package io.corbel.eventbus.rabbit;
+package com.bq.corbel.eventbus.rabbit;
 
 /**
  * @author Alexander De Leon

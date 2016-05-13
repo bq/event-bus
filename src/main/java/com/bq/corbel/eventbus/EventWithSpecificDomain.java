@@ -1,4 +1,4 @@
-package io.corbel.eventbus;
+package com.bq.corbel.eventbus;
 
 public abstract class EventWithSpecificDomain implements Event {
     protected String domain;

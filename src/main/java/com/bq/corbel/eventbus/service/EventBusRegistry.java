@@ -1,7 +1,7 @@
-package io.corbel.eventbus.service;
+package com.bq.corbel.eventbus.service;
 
-import io.corbel.eventbus.Event;
-import io.corbel.eventbus.EventHandler;
+import com.bq.corbel.eventbus.Event;
+import com.bq.corbel.eventbus.EventHandler;
 
 /**
  * @author Alexander De Leon
