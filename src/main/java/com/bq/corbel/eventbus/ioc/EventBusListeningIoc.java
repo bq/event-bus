@@ -1,4 +1,4 @@
-package io.corbel.eventbus.ioc;
+package com.bq.corbel.eventbus.ioc;
 
 import java.text.MessageFormat;
 import java.util.Optional;
@@ -15,14 +15,14 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 import org.springframework.core.env.Environment;
 
-import io.corbel.eventbus.EventHandler;
-import io.corbel.eventbus.rabbit.EventBusRabbitMQ;
-import io.corbel.eventbus.service.DefaultIncomingEventProcessor;
-import io.corbel.eventbus.service.EventBusRegistry;
-import io.corbel.eventbus.service.InMemoryEventBusRegistry;
-import io.corbel.eventbus.service.IncomingEventProcessor;
-import io.corbel.lib.rabbitmq.config.AmqpConfiguration;
-import io.corbel.lib.rabbitmq.config.BackoffOptions;
+import com.bq.corbel.eventbus.EventHandler;
+import com.bq.corbel.eventbus.rabbit.EventBusRabbitMQ;
+import com.bq.corbel.eventbus.service.DefaultIncomingEventProcessor;
+import com.bq.corbel.eventbus.service.EventBusRegistry;
+import com.bq.corbel.eventbus.service.InMemoryEventBusRegistry;
+import com.bq.corbel.eventbus.service.IncomingEventProcessor;
+import com.bq.corbel.lib.rabbitmq.config.AmqpConfiguration;
+import com.bq.corbel.lib.rabbitmq.config.BackoffOptions;
 
 /**
  * This IoC loads a context which allow registering {@link EventHandler} in the event bus an start listening for events.

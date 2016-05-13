@@ -1,8 +1,8 @@
-package io.corbel.eventbus.service;
+package com.bq.corbel.eventbus.service;
 
 import org.springframework.amqp.core.AmqpTemplate;
 
-import io.corbel.eventbus.Event;
+import com.bq.corbel.eventbus.Event;
 
 /**
  * @author Francisco Sanchez

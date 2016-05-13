@@ -1,4 +1,4 @@
-package io.corbel.eventbus.service;
+package com.bq.corbel.eventbus.service;
 
 import static org.fest.assertions.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
@@ -12,8 +12,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
 
-import io.corbel.eventbus.Event;
-import io.corbel.eventbus.EventHandler;
+import com.bq.corbel.eventbus.Event;
+import com.bq.corbel.eventbus.EventHandler;
 
 /**
  * @author Francisco Sanchez

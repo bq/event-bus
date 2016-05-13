@@ -1,4 +1,4 @@
-package io.corbel.eventbus.ioc;
+package com.bq.corbel.eventbus.ioc;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,8 +6,8 @@ import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 
-import io.corbel.eventbus.EventHandler;
-import io.corbel.eventbus.service.EventBusRegistry;
+import com.bq.corbel.eventbus.EventHandler;
+import com.bq.corbel.eventbus.service.EventBusRegistry;
 
 /**
  * @author Alexander De Leon

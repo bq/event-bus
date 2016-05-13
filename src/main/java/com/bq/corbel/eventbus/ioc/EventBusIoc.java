@@ -1,4 +1,4 @@
-package io.corbel.eventbus.ioc;
+package com.bq.corbel.eventbus.ioc;
 
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,8 +8,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 import org.springframework.core.env.Environment;
 
-import io.corbel.eventbus.service.EventBus;
-import io.corbel.eventbus.service.RabbitEventBus;
+import com.bq.corbel.eventbus.service.EventBus;
+import com.bq.corbel.eventbus.service.RabbitEventBus;
 
 /**
  * @author Francisco Sanchez

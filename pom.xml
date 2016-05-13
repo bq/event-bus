@@ -2,14 +2,14 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.corbel</groupId>
+    <groupId>com.bq.corbel</groupId>
     <artifactId>event-bus</artifactId>
     <version>1.28.0-SNAPSHOT</version>
 
     <name>event-bus</name>
 
     <description>Publish/subscribe event bus that simplifies communication between Corbel modules</description>
-    <url>https://github.com/corbel-platform/event-bus</url>
+    <url>https://github.com/bq/event-bus</url>
 
     <licenses>
         <license>
@@ -31,7 +31,7 @@
     <scm>
         <connection>scm:git:ssh://bq-devtools@git.dev.bqsoftware.net:29418/event-bus</connection>
         <developerConnection>scm:git:ssh://bq-devtools@git.dev.bqsoftware.net:29418/event-bus</developerConnection>
-        <url>https://github.com/corbel-platform/event-bus</url>
+        <url>https://github.com/bq/event-bus</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -45,7 +45,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.corbel.lib</groupId>
+            <groupId>com.bq.corbel.lib</groupId>
             <artifactId>rabbitmq</artifactId>
             <version>0.9.0</version>
         </dependency>
@@ -158,11 +158,11 @@
 
     <ciManagement>
         <system>Travis CI</system>
-        <url>https://travis-ci.org/corbel-platform/event-bus</url>
+        <url>https://travis-ci.org/bq/event-bus</url>
     </ciManagement>
 
     <issueManagement>
-        <url>https://github.com/corbel-platform/event-bus/issues</url>
+        <url>https://github.com/bq/event-bus/issues</url>
         <system>GitHub Issues</system>
     </issueManagement>
 
