@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.bq.corbel</groupId>
   <artifactId>event-bus</artifactId>
-  <version>1.33.0</version>
+  <version>1.34.0-SNAPSHOT</version>
   <name>event-bus</name>
   <description>Publish/subscribe event bus that simplifies communication between Corbel modules</description>
   <url>https://github.com/bq/event-bus</url>
@@ -24,7 +24,7 @@
     <connection>scm:git:ssh://bq-devtools@git.dev.bqsoftware.net:29418/event-bus</connection>
     <developerConnection>scm:git:ssh://bq-devtools@git.dev.bqsoftware.net:29418/event-bus</developerConnection>
     <url>https://github.com/bq/event-bus</url>
-    <tag>event-bus-1.33.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <distributionManagement>
     <snapshotRepository>
